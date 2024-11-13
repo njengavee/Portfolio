@@ -3,7 +3,7 @@ export default function SocialMediaIcons() {
     <div className="flex justify-center md:justify-start my-10 gap-7">
       <a
         className="hover:opacity-50 transition duration-500"
-        href="https://www.linkedin.com/in/simon-kamau-codes/"
+        href="https://www.linkedin.com/in/wanjiru-njenga-/"
         target="_blank"
         rel="noreferrer"
       >
