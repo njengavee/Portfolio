@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import useMediaQuery from "../hooks/useMediaQuery";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import Wanjiru from "../assets/wanjiru.jpeg";
+import Wanjiru from "../assets/wanjiru.jpg";
 import SocialMediaIcons from "../components/SocialMediaIcons";
 
 const onButtonClick = () => {
@@ -55,8 +55,8 @@ export default function Landing({ setSelectedPage }) {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="text-6xl font-playfair z-10 text-center md:text-start md:ml-[-35px]">
-            WANJIRU {""}
+          <p className="text-5xl font-playfair z-10 text-center md:text-start md:ml-[-35px]">
+            VEE {""}
             <span
               className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush
               before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]"
@@ -65,14 +65,17 @@ export default function Landing({ setSelectedPage }) {
             </span>
           </p>
           <p className="md:mx-0 mt-10 mb-7 text-sm text-center md:text-start">
-            Hello 👋🏾👋🏾 I’m a FullStack developer with expertise in PHP, Laravel,
-            MySQL, Node.js, Express, React, and Redux. I focus on delivering
-            high-quality, scalable solutions by blending powerful backend
-            architectures with responsive, intuitive frontend experiences. I’m
-            passionate about innovation and continuous improvement, expanding my
-            skills through self-assessment and learning from others.
-            Problem-solving is at the core of my work , and I find fulfillment
-            in creating impactful solutions that serve and uplift communities.
+            Hey there! 👋🏾👋🏾 
+            I’m a passionate Data Analyst with a keen eye for detail and a knack 
+            for uncovering actionable insights. With a strong foundation in data
+            cleaning, modeling, analysis and visualization, I am skilled in 
+            transforming raw data into compelling stories. My proficiency in 
+            Microsoft Excel, SQL, PowerBi and Python enables me to efficiently
+            explore, manipulate, and present data in a clear and concise manner.
+            I am eager to apply my skills to real-world challenges and contribute
+            to data-driven decision-making. Let's collaborate and turn your data 
+            into a competitive advantage.
+            
           </p>
         </motion.div>
         {/* Call to action */}
