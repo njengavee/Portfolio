@@ -12,7 +12,7 @@ export default function SocialMediaIcons() {
 
       <a
         className="hover:opacity-50 transition duration-500"
-        href="https://x.com/Kamau_codes"
+        href="https://x.com/njenga_vee_"
         target="_blank"
         rel="noreferrer"
       >
@@ -21,7 +21,7 @@ export default function SocialMediaIcons() {
 
       <a
         className="hover:opacity-50 transition duration-500"
-        href="https://github.com/Kamausimon"
+        href="https://github.com/njengavee"
         target="_blank"
         rel="noreferrer"
       >
